@@ -10,6 +10,7 @@ For Caja (the file manager used in Ubuntu Mate, etc.) the script directory is th
 You need to set appropriate execution rights (via Properties > Permissions > Allow executing file as program or `chmod +x`). 
 
 You must also ensure that you have Zenity installed. The script uses either pdf2ps (standard in Ubuntu or can be installed from Poppler Tools) or convert (from ImageMagick but standard in Ubuntu)
+
 `sudo apt install zenity`
 # Usage
 Once installed, right clicking on a PDF file will show a "Scripts" menu, with a "Flatten Marked-Up PDF to Done" submenu entry.  If it does not already exist, the script will create a /Done folder.  The .pdf file will be flattened and will be saved in the /Done folder.  The original file will be preserved.
